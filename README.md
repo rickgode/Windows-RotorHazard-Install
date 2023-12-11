@@ -18,6 +18,8 @@ Some Prerequisites
 
 5.  Once you have your USB Node, plug it in your computer, go to the device manager and make note of the com port (you'll need it later)
 
+![COM Port](img/com.gif)
+
 **Install the RotorHazard server on Windows:**
 
 6. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
