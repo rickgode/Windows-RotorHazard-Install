@@ -1,4 +1,4 @@
-# **Windows Operating System**&#x20;
+# **Windows RotorHazard Install**&#x20;
 
 The RotorHazard server may be run on any computer with an operating system that supports Python. In these alternate configurations, one or more hardware nodes may be connected via USB -- see [doc/USB Nodes.md](https://github.com/RotorHazard/RotorHazard/blob/v4.0.0/doc/USB%20Nodes.md) for more information. The server may also be run using simulated (mock) nodes.
 
