@@ -28,11 +28,13 @@ Some Prerequisites
 
 ![CMD](img/CMD.gif)
 
+9.  Install the RotorHazard server dependencies using the 'reqsNonPi.txt' file, using the command below. (Note that this command may require administrator access to the computer, and the command may take a few minutes to finish).
+
 ```
 python -m pip install -r reqsNonPi.txt
 ```
 
-9. Copy Config File
+10. Copy Config File
 
 In the "src/server" directory, copy the config-dist.json file to config.json:
 
@@ -40,7 +42,7 @@ In the "src/server" directory, copy the config-dist.json file to config.json:
 copy config-dist.json config.json
 ```
 
-10.  Edit the Config file
+11.  Edit the Config file
 
 You can open up notepad with a command to edit the config.json file.
 
