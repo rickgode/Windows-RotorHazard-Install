@@ -24,7 +24,9 @@ Some Prerequisites
 
 6. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
 7. Unzip the downloaded file into a directory (aka folder) on the computer.  I suggest C:\Users\\{username}\\
-8. Open up windows file explorer and navigate to C:\Users\\{username}\RotorHazard4.0.0\src\server directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory
+8. Open up windows file explorer and navigate to C:\Users\\{username}\RotorHazard4.0.0\src\server directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
+
+![COM Port](img/CMD.gif)
 
 ```
 python -m pip install -r reqsNonPi.txt
