@@ -9,7 +9,15 @@ Some Prerequisites
    
 ![Visual Studio Install](img/C++.png)
 
+3. You will also need a USB Node, see [doc/USB Nodes.md](https://github.com/RotorHazard/RotorHazard/blob/v4.0.0/doc/USB%20Nodes.md) for more information.
+![USB Node](img/USB_node_wiring.jpg)  ![USB Node](img/USB_node_built1.jpg) 
+
+4. Or you can use the PCB board I designed.  Download the gerber file [here](files/Gerber_PCB_Final_2023-12-11.zip).
+
+![USB Node PCB](img/pcb%20board.gif)
+
 Install the RotorHazard server on Windows:
+
 4. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
 5. Unzip the downloaded file into a directory (aka folder) on the computer.  I suggest C:\Users\\{username}\\
 6. Open up windows file explorer and navigate to C:\Users\\{username}\RotorHazard4.0.0\src\server directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory
