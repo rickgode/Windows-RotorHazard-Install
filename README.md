@@ -16,17 +16,19 @@ Some Prerequisites
 
 ![USB Node PCB](img/pcb%20board.gif)
 
-Install the RotorHazard server on Windows:
+5.  Once you have your USB Node, plug it in your computer, go to the device manager and make note of the com port (you'll need it later)
 
-4. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
-5. Unzip the downloaded file into a directory (aka folder) on the computer.  I suggest C:\Users\\{username}\\
-6. Open up windows file explorer and navigate to C:\Users\\{username}\RotorHazard4.0.0\src\server directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory
+**Install the RotorHazard server on Windows:**
+
+6. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
+7. Unzip the downloaded file into a directory (aka folder) on the computer.  I suggest C:\Users\\{username}\\
+8. Open up windows file explorer and navigate to C:\Users\\{username}\RotorHazard4.0.0\src\server directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory
 
 ```
 python -m pip install -r reqsNonPi.txt
 ```
 
-6. Copy Config File
+9. Copy Config File
 
 In the "src/server" directory, copy the config-dist.json file to config.json:
 
@@ -34,7 +36,7 @@ In the "src/server" directory, copy the config-dist.json file to config.json:
 copy config-dist.json config.json
 ```
 
-7.  Edit the Config file
+10.  Edit the Config file
 
 You can open up notepad with a command to edit the config.json file.
 
