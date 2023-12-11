@@ -50,6 +50,16 @@ You can open up notepad with a command to edit the config.json file.
 notepad config.json
 ```
 
-edit the config.json file and modify the ADMIN\_USERNAME and ADMIN\_PASSWORD values. These are the login credentials you will need to enter (in the browser popup window) to access the pages reserved for the race director (i.e., the Settings and Run pages).
+Edit the config.json file and modify the ADMIN\_USERNAME and ADMIN\_PASSWORD values. These are the login credentials you will need to enter (in the browser popup window) to access the pages reserved for the race director (i.e., the Settings and Run pages).
 
-This is also a good time to edit the com part
+The attached USB node will be referenced with a serial port name like "COM3". The current ports may be viewed in the Windows Device Manager under "Ports (COM & LPT)" -- when the USB node is plugged in, its entry should appear. It may be necessary to install or update its driver (named something like "USB-SERIAL"). The "src/server/config.json" file should contain an entry like this:
+
+```
+	"SERIAL_PORTS": ["COM3"],
+```
+Multiple USB nodes would be configured like this:
+
+```
+	"SERIAL_PORTS": ["COM3","COM4"],
+```
+
