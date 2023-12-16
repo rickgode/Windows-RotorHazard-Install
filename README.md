@@ -5,7 +5,7 @@ The RotorHazard server may be run on any computer with an operating system that 
 Some Prerequisites
 
 1. If the computer does not already have Python installed, download and install Python from <https://www.python.org/downloads/windows/>. For RotorHazard 4.0.0 you **MUST INSTALL** Python **3.11.7** (or earlier)  The minimum version of Python needed for RotorHazard is 3.7. To check if Python is installed and the version, open up a command prompt and enter \[python –version]  If you installed Python 3.12 you might get errors
-2. The next thing you will need to install is the Visual Studio Installer.  In the Workloads tab on the top make sure and check “Desktop Development with C++ and install that.
+2. The next thing you will need to install is the [Visual Studio Installer](https://aka.ms/vs/17/release/vs_BuildTools.exe).  In the Workloads tab on the top make sure and check “Desktop Development with C++ and install that.
    
 ![Visual Studio Install](img/C++.png)
 
