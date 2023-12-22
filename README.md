@@ -62,4 +62,25 @@ Multiple USB nodes would be configured like this:
 ```
 	"SERIAL_PORTS": ["COM3","COM4"],
 ```
-
+**Update an existing RotorHazard server on Windows:**
+1.  From the RotorHazard Releases page on github, download the "Source code (zip)" file.  https://github.com/RotorHazard/RotorHazard/releases
+2.  Unzip the downloaded file into the RotorHazard directory (aka folder) on the computer, overwriting the existing version.  I suggest C:\Users\{username}\
+3.  Using the command prompt, navigate to the topmost RotorHazard directory.
+4.  Activate the Python virtual environment 'venv'
+```
+python -m venv venv
+```
+```
+venv\Scripts\activate.bat
+```
+5.  Using the command prompt, navigate to the src/server directory.
+```
+cd src
+```
+```
+cd server
+```
+6.  Enter the update command:
+```
+python -m pip install --upgrade --no-cache-dir -r reqsNonPi.txt
+```
