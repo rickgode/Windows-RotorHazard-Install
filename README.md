@@ -24,17 +24,31 @@ Some Prerequisites
 
 6. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
 7. Unzip the downloaded file into a directory (aka folder) on the computer.  I suggest C:\Users\\{username}\\
-8. Open up windows file explorer and navigate to C:\Users\\{username}\RotorHazard4.0.0\src\server directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
+8. Open up windows file explorer and navigate to where you unzipped the RotorHazard server C:\Users\\{username}\RotorHazard4.0.1\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 
 ![CMD](img/CMD.gif)
 
-9.  Install the RotorHazard server dependencies using the 'reqsNonPi.txt' file, using the command below. (Note that this command may require administrator access to the computer, and the command may take a few minutes to finish).
+9. Activate the Python virtual environment 'venv'
+```
+python -m venv venv
+```
+```
+venv\Scripts\activate.bat
+```
+10.  Using the command prompt, navigate to the src/server directory.
+```
+cd src
+```
+```
+cd server
+``` 
+11.  Install the RotorHazard server dependencies using the 'reqsNonPi.txt' file, using the command below. (Note that this command may require administrator access to the computer, and the command may take a few minutes to finish).
 
 ```
 python -m pip install -r reqsNonPi.txt
 ```
 
-10. Copy Config File
+12. Copy Config File
 
 In the "src/server" directory, copy the config-dist.json file to config.json:
 
@@ -42,7 +56,7 @@ In the "src/server" directory, copy the config-dist.json file to config.json:
 copy config-dist.json config.json
 ```
 
-11.  Edit the Config file
+13.  Edit the Config file
 
 You can open up notepad with a command to edit the config.json file.
 
