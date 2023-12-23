@@ -27,6 +27,7 @@ Some Prerequisites
 8. Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\\{username}\RotorHazard4.0.1\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 
 ![CMD](img/CMD.gif)
+
 9. Activate the Python virtual environment 'venv'
 ```
 python -m venv venv
