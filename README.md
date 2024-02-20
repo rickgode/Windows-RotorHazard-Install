@@ -74,7 +74,9 @@ Multiple USB nodes would be configured like this:
 	"SERIAL_PORTS": ["COM3","COM4"],
 ```
 14.  save the config.json file
+    
 **Create a shortcut to start the RotorHazard server in Windows:**
+
 1.  Right click on the desktop and choose new shortcut
 2.  For the location of the item copy and paste this but change your target.  C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv venv && venv\Scripts\activate.bat && cd src\server && server.py
 3.  Click Next
@@ -86,7 +88,9 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 8.  Click browse
 9.  Navigate to C:\Users\{username}\RotorHazard\src\server\static\image\favicon.ico
 10.  Click OK
+    
 **Update an existing RotorHazard server on Windows:**
+
 1.  From the RotorHazard Releases page on github, download the "Source code (zip)" file.  https://github.com/RotorHazard/RotorHazard/releases
 2.  Unzip the downloaded file into the RotorHazard directory (aka folder) on the computer, overwriting the existing version.  I suggest C:\Users\{username}\
 3.  Using the command prompt, navigate to the topmost RotorHazard directory.
