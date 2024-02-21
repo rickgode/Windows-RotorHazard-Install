@@ -91,7 +91,7 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 
 **To stop the RotorHazard Server**
 
-In the cmd window press ctrl + c
+1.  In the cmd window press ctrl + c
     
 **Update an existing RotorHazard server on Windows:**
 
