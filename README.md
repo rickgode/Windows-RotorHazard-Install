@@ -88,6 +88,10 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 8.  Click browse
 9.  Navigate to C:\Users\{username}\RotorHazard\src\server\static\image\favicon.ico
 10.  Click OK
+
+**To stop the RotorHazard Server**
+
+In the cmd window press ctrl + c
     
 **Update an existing RotorHazard server on Windows:**
 
