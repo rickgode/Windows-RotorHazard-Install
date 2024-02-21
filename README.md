@@ -103,11 +103,9 @@ venv\Scripts\activate.bat
 ```
 5.  Using the command prompt, navigate to the src/server directory.
 ```
-cd src
+cd src\server
 ```
-```
-cd server
-```
+
 6.  Enter the update command:
 ```
 python -m pip install --upgrade --no-cache-dir -r reqsNonPi.txt
