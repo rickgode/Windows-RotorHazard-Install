@@ -71,7 +71,7 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 
 1.  Double click on the RotorHazard icon you just created.
 2.  The RotorHazard server will start, but your usb node isn't configured yet so the server will operate using simulated nodes.  In this mode the web-GUI interface maybe explored and tested.
-3.  Now we need to edit a config.json file that doesn't get created until you run the RotorHazard Server for the first time.
+3.  Now we need to edit the config.json file that wasn't created until you ran the RotorHazard Server for the first time.
 
 **To STOP the RotorHazard Server**
 
@@ -79,7 +79,7 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 
 **Edit the config.json file**
 
-1.  Edit the Config file
+1.  Edit the Config file using notepad
 
 You can open up notepad with a command to edit the config.json file.
 
@@ -104,12 +104,14 @@ Multiple USB nodes would be configured like this:
 **You're FINISHED now START the RotorHazard Server**
 
 1.  Double click on the RotorHazard icon you created earlier
+2.  Have all the **FUNS**
+
     
 **Update an existing RotorHazard server on Windows:**
 
 1.  From the RotorHazard Releases page on github, download the "Source code (zip)" file.  https://github.com/RotorHazard/RotorHazard/releases
 2.  Unzip the downloaded file into the RotorHazard directory (aka folder) on the computer, overwriting the existing version.  I suggest C:\Users\{username}\
-3.  Using the command prompt, navigate to the topmost RotorHazard directory.
+3.  Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 4.  Activate the Python virtual environment 'venv'
 ```
 python -m venv venv
