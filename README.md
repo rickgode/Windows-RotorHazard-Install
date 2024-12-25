@@ -4,7 +4,10 @@ The RotorHazard server may be run on any computer with an operating system that 
 
 Some Prerequisites
 
-1. If the computer does not already have Python installed, download and install Python from <https://www.python.org/downloads/windows/>. For RotorHazard 4.0.0 you **MUST INSTALL** Python **3.11.7** (or earlier)  The minimum version of Python needed for RotorHazard is 3.7. To check if Python is installed and the version, open up a command prompt and enter \[python –version]  If you installed Python 3.12 you might get errors
+1. If the computer does not already have Python installed, download and install Python from <https://www.python.org/downloads/windows/>. For RotorHazard 4.2.0 you **MUST (SHOULD) INSTALL** Python **3.11.7** (or earlier)  The minimum version of Python needed for RotorHazard is 3.7. To check if Python is installed and the version, open up a command prompt and enter \[python –version]  If you installed Python 3.12 you might get errors.  **Make sure and check "Add python.exe to PATH**
+
+![Python Install](img/python%20path.png)
+
 2. The next thing you will need to install is the [Visual Studio Installer](https://aka.ms/vs/17/release/vs_BuildTools.exe).  In the Workloads tab on the top make sure and check “Desktop Development with C++ and install that.
    
 ![Visual Studio Install](img/C++.png)
@@ -64,10 +67,11 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 9.  Navigate to C:\Users\{username}\RotorHazard\src\server\static\image\favicon.ico
 10.  Click OK
 
-**To START the RotorHazard Server**
+**START the RotorHazard Server for the First Time**
 
-1.  Double click on the RotorHazard icon you just created
-2.  RotorHazard won't work because we need to edit a config.json file that doesn't get created until you run the RotorHazard Server for the first time.
+1.  Double click on the RotorHazard icon you just created.
+2.  The RotorHazard server will start, but your usb node isn't configured yet so the server will operate using simulated nodes.  In this mode the web-GUI interface maybe explored and tested.
+3.  Now we need to edit a config.json file that doesn't get created until you run the RotorHazard Server for the first time.
 
 **To STOP the RotorHazard Server**
 
