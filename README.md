@@ -44,16 +44,35 @@ cd src\server
 ```
 python -m pip install -r reqsNonPi.txt
 ```
+    
+**Create a shortcut to start the RotorHazard server in Windows:**
 
-12. Copy Config File
-
-In the "src/server" directory, copy the config-dist.json file to config.json:
-
+1.  Right click on the desktop and choose new shortcut
+2.  For the location of the item copy and paste this but change your {username}.
 ```
-copy config-dist.json config.json
+C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv venv && venv\Scripts\activate.bat && cd src\server && server.py
 ```
+3.  Click Next
+4.  Give your shortcut a name, maybe RotorHazard
+5.  Click Finish
+Your shortcut should be created, but the icon will just be a black cmd box.  Let's fix that
+6.  Right Click on your shortcut and select properties
+7.  Click the button that says change icon
+8.  Click browse
+9.  Navigate to C:\Users\{username}\RotorHazard\src\server\static\image\favicon.ico
+10.  Click OK
 
-13.  Edit the Config file
+**To START the RotorHazard Server**
+1.  Double click on the icon you just created
+2.  RotorHazard won't work because we need to edit a config.json file that doesn't get created until you run the RotorHazard Server for the first time.
+
+**To stop the RotorHazard Server**
+
+1.  In the cmd window press ctrl + c
+
+**Edit the config.json file**
+
+1.  Edit the Config file
 
 You can open up notepad with a command to edit the config.json file.
 
@@ -73,28 +92,7 @@ Multiple USB nodes would be configured like this:
 ```
 	"SERIAL_PORTS": ["COM3","COM4"],
 ```
-14.  save the config.json file
-    
-**Create a shortcut to start the RotorHazard server in Windows:**
-
-1.  Right click on the desktop and choose new shortcut
-2.  For the location of the item copy and paste this but change your {username}.
-```
-C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv venv && venv\Scripts\activate.bat && cd src\server && server.py
-```
-3.  Click Next
-4.  Give your shortcut a name, maybe RotorHazard
-5.  Click Finish
-Your shortcut should be created, but the icon will just be a black cmd box.  Let's fix that
-6.  Right Click on your shortcut and select properties
-7.  Click the button that says change icon
-8.  Click browse
-9.  Navigate to C:\Users\{username}\RotorHazard\src\server\static\image\favicon.ico
-10.  Click OK
-
-**To stop the RotorHazard Server**
-
-1.  In the cmd window press ctrl + c
+2.  save the config.json file
     
 **Update an existing RotorHazard server on Windows:**
 
