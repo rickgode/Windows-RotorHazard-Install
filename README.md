@@ -18,7 +18,7 @@ Some Prerequisites
 
 ![USB Node](img/usbnode.png)
 
-5.  Once you have your USB Node, plug it in your computer, go to the device manager and make note of the com port (you'll need it later)
+5.  Once you have your USB Node, plug it in your computer, go to the device manager and make note of the com port (you'll need it later).
 
 ![COM Port](img/com.gif)
 
