@@ -65,10 +65,11 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 10.  Click OK
 
 **To START the RotorHazard Server**
-1.  Double click on the icon you just created
+
+1.  Double click on the RotorHazard icon you just created
 2.  RotorHazard won't work because we need to edit a config.json file that doesn't get created until you run the RotorHazard Server for the first time.
 
-**To stop the RotorHazard Server**
+**To STOP the RotorHazard Server**
 
 1.  In the cmd window press ctrl + c
 
@@ -95,6 +96,10 @@ Multiple USB nodes would be configured like this:
 	"SERIAL_PORTS": ["COM3","COM4"],
 ```
 2.  save the config.json file
+
+**You're FINISHED now START the RotorHazard Server**
+
+1.  Double click on the RotorHazard icon you created earlier
     
 **Update an existing RotorHazard server on Windows:**
 
