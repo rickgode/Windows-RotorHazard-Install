@@ -35,10 +35,10 @@ Some Prerequisites
 
 9. Activate the Python virtual environment 'venv'
 ```
-python -m venv venv
+python -m venv --system-site-packages .venv
 ```
 ```
-venv\Scripts\activate.bat
+.venv\Scripts\activate.bat
 ```
 10.  Using the command prompt, navigate to the src/server directory.
 ```
@@ -55,7 +55,7 @@ python -m pip install -r reqsNonPi.txt
 1.  Right click on the desktop and choose new shortcut
 2.  For the location of the item copy and paste this but change your {username}.
 ```
-C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv venv && venv\Scripts\activate.bat && cd src\server && server.py
+C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv .venv && .venv\Scripts\activate.bat && cd src\server && server.py
 ```
 3.  Click Next
 4.  Give your shortcut a name, maybe RotorHazard
@@ -114,10 +114,10 @@ Multiple USB nodes would be configured like this:
 3.  Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 4.  Activate the Python virtual environment 'venv'
 ```
-python -m venv venv
+python -m venv .venv
 ```
 ```
-venv\Scripts\activate.bat
+.venv\Scripts\activate.bat
 ```
 5.  Using the command prompt, navigate to the src/server directory.
 ```
