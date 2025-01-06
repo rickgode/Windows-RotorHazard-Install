@@ -28,10 +28,8 @@ Some Prerequisites
 **Install the RotorHazard server on Windows:**
 
 6. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
-7. Unzip the downloaded file into a directory (aka folder) on the computer.
-   I suggest C:\Users\\{username}\RotorHazard
-8. Open up windows file explorer and navigate to where you unzipped the RotorHazard server.
-   I suggest C:\Users\\{username}\RotorHazard directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
+7. Unzip the downloaded file into a directory (aka folder) on the computer. I suggest C:\Users\.{username}\RotorHazard
+8. Open up windows file explorer and navigate to where you unzipped the RotorHazard server. I suggest C:\Users\\{username}\RotorHazard directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 
 ![CMD](img/CMD.gif)
 
