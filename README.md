@@ -29,7 +29,7 @@ Some Prerequisites
 
 6. From the RotorHazard [Releases page on github](https://github.com/RotorHazard/RotorHazard/releases), download the "Source code (zip)" file.
 7. Unzip the downloaded file into a directory (aka folder) on the computer.  I suggest C:\Users\\{username}\RotorHazard\
-8. Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
+8. Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\\Users\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 
 ![CMD](img/CMD.gif)
 
@@ -64,7 +64,7 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 6.  Right Click on your shortcut and select properties
 7.  Click the button that says change icon
 8.  Click browse
-9.  Navigate to C:\Users\{username}\RotorHazard\src\server\static\image\favicon.ico
+9.  Navigate to C:\Users\\{username}\RotorHazard\src\server\static\image\favicon.ico
 10.  Click OK
 
 **START the RotorHazard Server for the First Time**
@@ -111,7 +111,7 @@ Multiple USB nodes would be configured like this:
 
 1.  From the RotorHazard Releases page on github, download the "Source code (zip)" file.  https://github.com/RotorHazard/RotorHazard/releases
 2.  Unzip the downloaded file into the RotorHazard directory (aka folder) on the computer, overwriting the existing version.  I suggest C:\Users\{username}\RotorHazard\
-3.  Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
+3.  Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
 4.  Activate the Python virtual environment 'venv'
 ```
 python -m venv --system-site-packages .venv
