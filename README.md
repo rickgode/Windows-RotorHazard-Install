@@ -55,7 +55,7 @@ python -m pip install -r reqsNonPi.txt
 1.  Right click on the desktop and choose new shortcut
 2.  For the location of the item copy and paste this but change your {username}.
 ```
-C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv .venv && .venv\Scripts\activate.bat && cd src\server && server.py
+C:\Windows\System32\cmd.exe /K "cd C:\Users\{username}\RotorHazard\ && python -m venv --system-site-packages .venv && .venv\Scripts\activate.bat && cd src\server && server.py
 ```
 3.  Click Next
 4.  Give your shortcut a name, maybe RotorHazard
