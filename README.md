@@ -15,7 +15,7 @@ Some Prerequisites
 3. You will also need a USB Node, see [doc/USB Nodes.md](https://github.com/RotorHazard/RotorHazard/blob/v4.0.0/doc/USB%20Nodes.md) for more information.
 ![USB Node](img/USB_node_wiring.jpg)  ![USB Node](img/USB_node_built1.jpg) 
 
-4. Or you can use the PCB board I designed.  Download the gerber file [here](files/Gerber_PCB_Final_2023-12-11.zip "download").
+4. Or you can use the PCB board I designed.  Download the gerber file [here](https://raw.githubusercontent.com/rickgode/Windows-RotorHazard-Install/main/files/Gerber_PCB_Final_2023-12-11.zip).
 
 ![USB Node PCB](img/pcb%20board.gif)
 
