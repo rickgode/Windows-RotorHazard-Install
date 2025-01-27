@@ -1,4 +1,9 @@
 If this helps anyone else, here is what I did after I ssh'd into my pi rotorhazard
+Before making any changes, any currently-running RotorHazard server should be stopped.  If installed as a service, it may be stopped with a command like:
+```
+sudo systemctl stop rotorhazard
+```
+Change Directories
 ```
 cd RotorHazard/src/server/static/audio
 ```
