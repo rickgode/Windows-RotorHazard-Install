@@ -4,7 +4,7 @@ The RotorHazard server may be run on any computer with an operating system that 
 
 Some Prerequisites
 
-1. If the computer does not already have Python installed, download and install Python from <https://www.python.org/downloads/windows/>. For RotorHazard 4.2.0 you **MUST (SHOULD) INSTALL** Python **3.11.7** (or earlier)  The minimum version of Python needed for RotorHazard is 3.7. To check if Python is installed and the version, open up a command prompt and enter \[python –version]  If you installed Python 3.12 you might get errors.  **Make sure and check "Add python.exe to PATH**
+1. If the computer does not already have Python installed, download and install Python from <https://www.python.org/downloads/windows/>. For RotorHazard 4.2.0 you **MUST (SHOULD) INSTALL** Python **3.11.7** (or earlier)  The minimum version of Python needed for RotorHazard is 3.7. To check if Python is installed and the version, open up a command prompt and enter \[python –version]  If you installed Python 3.12 you might get errors.  **Make sure and check "Add python.exe to PATH"**
 
 ![Python Install](img/python%20path.png)
 
