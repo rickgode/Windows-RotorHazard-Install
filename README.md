@@ -105,6 +105,7 @@ Multiple USB nodes would be configured like this:
 
 1.  Double click on the RotorHazard icon you created earlier
 2.  Have all the **FUNS**
+3.  If you are running it from the same machine the website to go to is http://localhost:5000/
 
     
 **Update an existing RotorHazard server on Windows:**
