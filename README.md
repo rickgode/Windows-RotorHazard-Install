@@ -114,19 +114,21 @@ Multiple USB nodes would be configured like this:
 1.  From the RotorHazard Releases page on github, download the "Source code (zip)" file.  https://github.com/RotorHazard/RotorHazard/releases
 2.  Unzip the downloaded file into the RotorHazard directory (aka folder) on the computer, overwriting the existing version.  I suggest C:\Users\{username}\RotorHazard\
 3.  Open up windows file explorer and navigate to where you unzipped the RotorHazard server I suggest C:\Users\\{username}\RotorHazard\ directory then click in the address bar and type “cmd” it will open a command prompt in the correct directory.
-4.  Activate the Python virtual environment 'venv'
+4.  Create a Python virtual environment ('venv') by entering:
 ```
 python -m venv --system-site-packages .venv
 ```
+5.  Activate the Python virtual environment 'venv'
 ```
 .venv\Scripts\activate.bat
 ```
-5.  Using the command prompt, navigate to the src/server directory.
+6.  Using the command prompt, navigate to the src/server directory.
 ```
 cd src\server
 ```
 
-6.  Enter the update command:
+7.  Enter the update command:
 ```
 python -m pip install --upgrade --no-cache-dir -r reqsNonPi.txt
 ```
+8.  That's it, double click the shortcut you created on your desktop and enjoy!
