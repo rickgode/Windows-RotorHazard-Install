@@ -33,18 +33,19 @@ Some Prerequisites
 
 ![CMD](img/CMD.gif)
 
-9. Activate the Python virtual environment 'venv'
+9. Create a Python virtual environment ('venv') by entering:
 ```
 python -m venv --system-site-packages .venv
 ```
+10. Activate the Python virtual environment 'venv'
 ```
 .venv\Scripts\activate.bat
 ```
-10.  Using the command prompt, navigate to the src/server directory.
+11.  Using the command prompt, navigate to the src/server directory.
 ```
 cd src\server
 ```
-11.  Install the RotorHazard server dependencies using the 'reqsNonPi.txt' file, using the command below. (Note that this command may require administrator access to the computer, and the command may take a few minutes to finish).
+12.  Install the RotorHazard server dependencies using the 'reqsNonPi.txt' file, using the command below. (Note that this command may require administrator access to the computer, and the command may take a few minutes to finish).
 
 ```
 python -m pip install -r reqsNonPi.txt
