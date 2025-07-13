@@ -4,6 +4,10 @@ Before making any changes, any currently-running RotorHazard server should be st
 ```
 sudo systemctl stop rotorhazard
 ```
+Start at the Home Directory
+```
+cd
+```
 Change Directories
 ```
 cd RotorHazard/src/server/static/audio
