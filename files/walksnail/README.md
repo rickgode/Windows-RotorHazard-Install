@@ -16,7 +16,7 @@ I renamed the rotorhazard.js by adding .old just in case I need to go back.
 ```
 mv rotorhazard.js rotorhazard.js.old
 ```
-Now I'll download the new rotorhazard.js from github change the folder to 4.2 for an older version
+Now I'll download the new rotorhazard.js from github change the folder to 4.2 or 4.3 for an older version (current version 4.4)
 ```
-wget  https://raw.githubusercontent.com/rickgode/Windows-RotorHazard-Install/main/files/walksnail/4.3/rotorhazard.js
+wget  https://raw.githubusercontent.com/rickgode/Windows-RotorHazard-Install/main/files/walksnail/4.4/rotorhazard.js
 ```
