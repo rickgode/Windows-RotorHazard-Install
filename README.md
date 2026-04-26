@@ -82,15 +82,15 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 
 1.  Edit the Config file using notepad
 
-You can open up notepad with a command to edit the config.json file.
+You can open up notepad with a command to edit the config.py file.
 
 ```
-notepad config.json
+notepad config.py
 ```
 
-Edit the config.json file and modify the ADMIN\_USERNAME and ADMIN\_PASSWORD values. These are the login credentials you will need to enter (in the browser popup window) to access the pages reserved for the race director (i.e., the Settings and Run pages).
+Edit the config.py file and modify the ADMIN\_USERNAME and ADMIN\_PASSWORD values. These are the login credentials you will need to enter (in the browser popup window) to access the pages reserved for the race director (i.e., the Settings and Run pages).
 
-The attached USB node will be referenced with a serial port name like "COM3". The current ports may be viewed in the Windows Device Manager under "Ports (COM & LPT)" -- when the USB node is plugged in, its entry should appear. It may be necessary to install or update its driver (named something like "USB-SERIAL"). The "src/server/config.json" file should contain an entry like this:
+The attached USB node will be referenced with a serial port name like "COM3". The current ports may be viewed in the Windows Device Manager under "Ports (COM & LPT)" -- when the USB node is plugged in, its entry should appear. It may be necessary to install or update its driver (named something like "USB-SERIAL"). The "src/server/config.py" file should contain an entry like this:
 
 ```
 	"SERIAL_PORTS": ["COM3"],
@@ -100,7 +100,7 @@ Multiple USB nodes would be configured like this:
 ```
 	"SERIAL_PORTS": ["COM3","COM4"],
 ```
-2.  save the config.json file
+2.  save the config.py file
 
 **You're FINISHED now START the RotorHazard Server**
 
