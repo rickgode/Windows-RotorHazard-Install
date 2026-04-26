@@ -78,29 +78,44 @@ Your shortcut should be created, but the icon will just be a black cmd box.  Let
 
 1.  In the cmd window press ctrl + c
 
-**Edit the config.json file**
+~~**Edit the config.json file**~~
 
-1.  Edit the Config file using notepad
+When the RotorHazard server is run for the first time, it will create a config.json file in the data directory. As of RotorHazard 4.3, it is not necessary to hand-edit this file. All settings can be modified within the frontend user interface. 
 
-You can open up notepad with a command to edit the config.py file.
+**To Edit go to the Admin/Settings button on the main page.**
+
+1. In the System tab change the username and password (it saves automagically after a bit)
+2. Then scroll down a bit further and click on Advanced Settings
+3. Click on the Hardware tab and where it says Port 1 enter "com3" or whatever com port your usb node is.
+4. I'm guessing that for multiple USB nodes you enter a new com, but I haven't tried it
+
+![Hardware Tab](img/hardwaretab.png)
+
+The config.json file may still be directly edited to alter the configuration settings, but this must only be done while the RotorHazard server is not running, otherwise the changes will be overwritten. When the server starts up, if it detects that the config.json has been updated, it will load the settings and then create a backup copy of the file (with a filename in the form "config_bkp_YYYYMMDD_hhmmss.json").
+
+The contents of the "config.json" file must be in valid JSON format. A validator utility like JSONLint can be used to check for syntax errors.
+
+~~1.  Edit the Config file using notepad~~
+
+~~You can open up notepad with a command to edit the config.json file.~~
 
 ```
 notepad config.py
 ```
 
-Edit the config.py file and modify the ADMIN\_USERNAME and ADMIN\_PASSWORD values. These are the login credentials you will need to enter (in the browser popup window) to access the pages reserved for the race director (i.e., the Settings and Run pages).
+~~Edit the config.py file and modify the ADMIN\_USERNAME and ADMIN\_PASSWORD values. These are the login credentials you will need to enter (in the browser popup window) to access the pages reserved for the race director (i.e., the Settings and Run pages).~~
 
 The attached USB node will be referenced with a serial port name like "COM3". The current ports may be viewed in the Windows Device Manager under "Ports (COM & LPT)" -- when the USB node is plugged in, its entry should appear. It may be necessary to install or update its driver (named something like "USB-SERIAL"). The "src/server/config.py" file should contain an entry like this:
 
 ```
 	"SERIAL_PORTS": ["COM3"],
 ```
-Multiple USB nodes would be configured like this:
+~~Multiple USB nodes would be configured like this:~~
 
 ```
 	"SERIAL_PORTS": ["COM3","COM4"],
 ```
-2.  save the config.py file
+~~2.  save the config.json file~~
 
 **You're FINISHED now START the RotorHazard Server**
 
