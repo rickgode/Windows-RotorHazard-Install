@@ -27,3 +27,7 @@ wget  https://raw.githubusercontent.com/rickgode/Windows-RotorHazard-Install/mai
 ```
 wget  https://raw.githubusercontent.com/rickgode/Windows-RotorHazard-Install/main/files/mariokart/stage.mp3
 ```
+And while you are in there you might as well update
+```
+sudo apt update && sudo apt upgrade
+```
