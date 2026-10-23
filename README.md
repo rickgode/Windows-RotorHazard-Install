@@ -147,3 +147,4 @@ cd src\server
 python -m pip install --upgrade --no-cache-dir -r reqsNonPi.txt
 ```
 8.  That's it, double click the shortcut you created on your desktop and enjoy!
+9.  To stop the RotorHazard Server in the CMD window press ctrl+c
