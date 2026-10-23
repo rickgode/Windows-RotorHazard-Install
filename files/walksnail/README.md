@@ -1,6 +1,6 @@
-If this helps anyone else, here is what I did after I ssh'd into my pi rotorhazard.  I wanted to add these extra frequencies that Walksnail uses:
+If this helps anyone else, here is what I did after I ssh'd into my pi rotorhazard.  I wanted to add these extra frequencies that Walksnail uses
 
-          R9: 5620,
+		R9: 5620,
 		R10: 5580,
 		R11: 5540,
 		R12: 5500,
