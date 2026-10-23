@@ -28,3 +28,7 @@ Now I'll download the new rotorhazard.js from github change the folder to 4.2 or
 ```
 wget  https://raw.githubusercontent.com/rickgode/Windows-RotorHazard-Install/main/files/walksnail/4.5/rotorhazard.js
 ```
+And while you are in there you might as well update
+```
+sudo apt update && sudo apt upgrade
+```
